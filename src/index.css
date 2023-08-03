@@ -15,7 +15,7 @@ body{
     
 }
 .navbar-hover{
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 .navbar-hover:hover{
@@ -25,11 +25,11 @@ body{
 .navbar-cta{
     background-color: #EB0028;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .hero-text{
-    font-size: 6em;
+    font-size: 6rem;
     color: #EB0028;
 }
 
