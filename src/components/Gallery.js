@@ -21,49 +21,49 @@ function Gallery(){
                 <li>
                 
                     <figure class="photo">
-                        <img src={image1}/>
+                        <img alt='Gallery 1' src={image1}/>
                     </figure>
                     
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image2} />
+                        <img alt='Gallery 2' src={image2} />
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image3}/>
+                        <img alt='Gallery 3' src={image3}/>
                     </figure>
                 </li>
     
                 <li>
                     <figure class="photo">
-                        <img src={image4} />
+                        <img alt='Gallery 4' src={image4} />
                     </figure>
                 </li>
             </ul>
             <ul class="section-showcase clearfix">
                 <li>
                     <figure class="photo">
-                        <img src={image5} />
+                        <img alt='Gallery 5' src={image5} />
     
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image6}/>
+                        <img alt='Gallery 6' src={image6}/>
     
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image7} />
+                        <img alt='Gallery 7' src={image7} />
     
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image8} />
+                        <img alt='Gallery 8' src={image8} />
     
                     </figure>
                 </li>
@@ -71,25 +71,25 @@ function Gallery(){
                 <ul class="section-showcase clearfix">
                 <li>
                     <figure class="photo">
-                        <img src={image9} />
+                        <img alt='Gallery 9' src={image9} />
     
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image10} />
+                        <img alt='Gallery 10' src={image10} />
     
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image11}/>
+                        <img alt='Gallery 11' src={image11}/>
     
                     </figure>
                 </li>
                 <li>
                     <figure class="photo">
-                        <img src={image12}/>
+                        <img alt='Gallery 12' src={image12}/>
     
                     </figure>
                 </li>

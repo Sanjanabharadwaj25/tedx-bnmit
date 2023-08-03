@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import HeroImg from "../assets/hero.jpg";
 import Typed from "typed.js"; // Make sure to install 'typed.js' package using npm or yarn
 
 function Hero() {
