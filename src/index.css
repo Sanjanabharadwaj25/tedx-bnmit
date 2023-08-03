@@ -118,6 +118,6 @@ body{
 @media (min-width: 1024px) {
     .hero-section{
         height: 80vh;
-        padding-top: 8rem;
+        padding-top: 4rem;
     }
 }
