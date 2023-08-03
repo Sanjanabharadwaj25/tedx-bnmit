@@ -87,6 +87,7 @@ body{
 }
 .about{
     color: white;
+    text-align: justify;
 }
 .about a{
     text-decoration: underline;
@@ -142,6 +143,10 @@ body{
 
     .hero-text p{
         padding-top: 0.5rem;
+    }
+
+    .navbar-hover{
+        margin-right: 0.5rem;
     }
 
 }

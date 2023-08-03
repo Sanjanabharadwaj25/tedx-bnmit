@@ -35,7 +35,7 @@ const DreamsUnlocked = () => {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font ">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img alt="feature" className="object-cover object-center h-full w-full" src={DreamImage} />
@@ -43,8 +43,8 @@ const DreamsUnlocked = () => {
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
           <div className="flex flex-col mb-10 lg:items-start items-center">
             <div className="flex-grow">
-              <h2 className="about-color text-lg title-font font-medium mb-3">Theme: Dreams Unlocked</h2>
-              <p className="leading-relaxed text-lg text-base text-white">
+              <h2 className="about-color text-lg title-font font-medium mb-3 ">Theme: Dreams Unlocked</h2>
+              <p className="leading-relaxed text-lg text-base text-white text-justify">
                 Don't shy away from your dreams. Embrace your culture with all your heart, for every dream is unique and achievable. Whether it's as an introvert or an extrovert, a budding artist or a legendary performer, we all have the power to make our dreams a reality.
               </p>
             </div>
@@ -52,7 +52,7 @@ const DreamsUnlocked = () => {
           <div className="flex flex-col mb-10 lg:items-start items-center">
             <div className="flex-grow">
               <h2 className="about-color text-lg title-font font-medium mb-3">Event Details</h2>
-              <p className="leading-relaxed text-lg text-base text-white">
+              <p className="leading-relaxed text-lg text-base text-white text-justify">
                 September 16th, 2023<br />
                 Mathrushree Sushila Devi R Maanay Auditorium<br />
                 BNM Institute of Technology<br />
