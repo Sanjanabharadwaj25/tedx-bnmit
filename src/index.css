@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Newake';
+    src: url('./assets/fonts/NewakeFont-Demo.otf') format('opentype');
+    font-family: 'Bahnschrift';
+    src: url('./assets/fonts/Bahnschrift\ Regular.ttf') format('truetype');
+    
+  }
+  
+body{
+    background-color: rgb(16, 15, 16);
+    font-family: 'Bahnschrift', sans-serif;
+    
+}
+.navbar-hover{
+    font-size: 1.2rem;
+
+}
+.navbar-hover:hover{
+    color: #EB0028;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-cta{
+    background-color: #EB0028;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.hero-text{
+    font-size: 6em;
+    color: #EB0028;
+}
+
+.hero-text p{
+    font-size: 2rem;
+    color: white;
+}
+.typed-cursor {
+    opacity: 0; /* Set the cursor opacity to 0 to hide it */
+  }
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: "-";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+.section-image {
+    padding: 0;
+    
+}
+.section-showcase {
+    list-style: none;
+    width:100%;
+}
+
+.section-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #867f7f7c;
+    
+}
+.photo img{
+    width:100%;
+    height:auto;
+    transform: scale(1.20);
+    opacity: 0.6;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+    
+}
+.about{
+    color: white;
+}
+
+.about a{
+    text-decoration: underline;
+}
+.aboutbg{
+    background-color: #EB0028;
+}
+.about-color{
+    color: #EB0028;
+}
+@media (max-width: 767px) {
+    .hero-text{
+        font-size: 3rem;
+    }
+
+    .hero-text p{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1024px) {
+    .hero-section{
+        height: 80vh;
+        padding-top: 10rem;
+    }
 }
