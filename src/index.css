@@ -29,7 +29,7 @@ body{
 }
 
 .hero-text{
-    font-size: 6rem;
+    font-size: 5rem;
     color: #EB0028;
 }
 
@@ -118,6 +118,6 @@ body{
 @media (min-width: 1024px) {
     .hero-section{
         height: 80vh;
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
 }
