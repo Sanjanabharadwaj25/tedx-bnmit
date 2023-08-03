@@ -18,3 +18,15 @@
     mix-blend-mode: difference;
   }
   
+  
+@media (max-width: 767px) {
+  
+  .cursor-name{
+    display: hidden;
+}
+
+.circle{
+    display: hidden;
+}
+
+}

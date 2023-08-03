@@ -115,6 +115,14 @@ body{
         width: 50%;
     }
 
+    .cursor-name{
+        display: hidden;
+    }
+
+    .circle{
+        display: hidden;
+    }
+
 }
 @media (min-width: 1024px) {
     .hero-section{
