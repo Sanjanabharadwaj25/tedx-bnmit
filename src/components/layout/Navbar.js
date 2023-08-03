@@ -9,7 +9,6 @@ function Navbar(){
    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
      <div href="#" class="mr-5 text-white navbar-hover">Dreams Unlocked</div>
      <div href="../About.js" class="mr-5 text-white navbar-hover">About</div>
-     <div href="#" class="mr-5 text-white navbar-hover">Team</div>
      <div href="#" class="mr-5 text-white navbar-hover">Sponsors</div>
    </nav>
    <button class="inline-flex items-center navbar-cta border-0 py-1 px-3 focus:outline-none hover:bg-white navbar-hover rounded text-base mt-4 md:mt-0">Book Tickets

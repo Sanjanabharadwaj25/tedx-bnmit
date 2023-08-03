@@ -140,6 +140,10 @@ body{
         font-size: 3rem;
     }
 
+    .hero-text p{
+        padding-top: 0.5rem;
+    }
+
 }
 
 @media (min-width: 1024px) {
