@@ -86,7 +86,6 @@ body{
 .about{
     color: white;
 }
-
 .about a{
     text-decoration: underline;
 }
@@ -96,6 +95,13 @@ body{
 .about-color{
     color: #EB0028;
 }
+
+.footer-links:hover{
+    color: #EB0028;
+}
+
+
+
 @media (max-width: 767px) {
     .hero-text{
         font-size: 3rem;
@@ -104,6 +110,10 @@ body{
     .hero-text p{
         font-size: 1.5rem;
     }
+    .section-showcase li {
+        width: 50%;
+    }
+
 }
 @media (min-width: 1024px) {
     .hero-section{
