@@ -131,6 +131,14 @@ body{
     .section-showcase li {
         width: 50%;
     }
+    .count-ul li{
+        font-size:0.8em;
+        padding: 0.8em;
+    }
+
+    .span-class{
+        font-size: 3rem;
+    }
 
 }
 
