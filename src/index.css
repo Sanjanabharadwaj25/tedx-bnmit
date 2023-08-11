@@ -126,6 +126,10 @@ body{
     font-size: 4rem;
   }
 
+#about-section{
+    background-color: white;
+}
+
 @media (max-width: 767px) {
     .hero-text{
         font-size: 3rem;
