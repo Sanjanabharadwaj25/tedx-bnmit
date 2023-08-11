@@ -76,7 +76,7 @@ body{
     margin: 0;
     overflow: hidden;
     background-color: #867f7f7c;
-    border-radius: 1%;
+    border-radius: 5%;
 
     
 }
@@ -114,9 +114,6 @@ body{
     font-size: 4rem;
   }
 
-#about-section{
-    background-color: white;
-}
 
 @media (max-width: 767px) {
     .hero-text{
