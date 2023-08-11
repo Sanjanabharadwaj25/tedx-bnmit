@@ -30,6 +30,9 @@ body{
     font-size: 1rem;
 }
 
+.navbar{
+    margin-top: 0;
+}
 .hero-text{
     font-size: 5rem;
     color: #EB0028;
