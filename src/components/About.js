@@ -1,6 +1,6 @@
 import React from "react";
 import aboutimage from "../assets/hero.jpg"
-import "./components/about-module.css";
+import "./about-module.css";
 function About(){
     return <section class="text-gray-600 body-font about-section">
     <div class="container px-5 py-24 mx-auto flex flex-col">
