@@ -1,6 +1,8 @@
 .about-section{
     background-color: white;
-    width: max-content;
+    margin: 0;
+    padding: 0%;
+
 }
 
 .about{
