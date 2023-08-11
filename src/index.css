@@ -31,7 +31,7 @@ body{
 }
 
 .navbar{
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 .hero-text{
     font-size: 5rem;
