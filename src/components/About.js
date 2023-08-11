@@ -2,7 +2,7 @@ import React from "react";
 import aboutimage from "../assets/hero.jpg"
 import "./about-module.css";
 function About(){
-    return <section class="text-gray-600 body-font about-section">
+    return <section class="about-section text-gray-600 body-font ">
     <div class="container px-5 py-24 mx-auto flex flex-col">
       <div class="lg:w-4/6 mx-auto">
         <div class="rounded-lg h-64 overflow-hidden">
