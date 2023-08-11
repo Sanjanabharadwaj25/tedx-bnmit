@@ -1,3 +1,18 @@
 .about-section{
     background-color: white;
+    width: max-content;
+}
+
+.about{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.about a{
+    text-decoration: underline;
+}
+.aboutbg{
+    background-color: #EB0028;
+}
+.about-color{
+    color: #EB0028;
 }

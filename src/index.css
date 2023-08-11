@@ -90,19 +90,6 @@ body{
     opacity: 1;
     
 }
-.about{
-    color: white;
-    text-align: justify;
-}
-.about a{
-    text-decoration: underline;
-}
-.aboutbg{
-    background-color: #EB0028;
-}
-.about-color{
-    color: #EB0028;
-}
 
 .footer-links:hover{
     color: #EB0028;
