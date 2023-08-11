@@ -76,10 +76,11 @@ body{
     margin: 0;
     overflow: hidden;
     background-color: #867f7f7c;
+    border-radius: 15%;
+
     
 }
 .photo img{
-    border-radius: 25%;
     width:100%;
     height:auto;
     transform: scale(1.20);
