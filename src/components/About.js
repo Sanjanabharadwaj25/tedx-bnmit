@@ -8,6 +8,7 @@ function About(){
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src={aboutimage}/>
         </div>
+        <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
             <div class="flex flex-col items-center text-center justify-center">
@@ -27,10 +28,10 @@ function About(){
             </a>
           </div>
         </div>
-
+</div>
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-            <div class="flex flex-col items-center text-center justify-center container">
+            <div class="flex flex-col items-center text-center justify-center ">
               <h2 class="font-medium title-font mt-4 text-black text-lg">What is TEDx?</h2>
               <div class="w-12 h-1 rounded mt-2 mb-4 aboutbg"></div>
             </div>
