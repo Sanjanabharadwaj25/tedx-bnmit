@@ -33,11 +33,13 @@ body{
 .hero-text{
     font-size: 5rem;
     color: #EB0028;
+    font-family: 'Newake';
 }
 
 .hero-text p{
     font-size: 2rem;
     color: white;
+    padding-top: 0.5rem;
 }
 .typed-cursor {
     opacity: 0; /* Set the cursor opacity to 0 to hide it */
