@@ -79,10 +79,10 @@ body{
     
 }
 .photo img{
+    border-radius: 25%;
     width:100%;
     height:auto;
     transform: scale(1.20);
-    opacity: 0.6;
     transition: transform 0.5s, opacity 0.5s;
 }
 .photo img:hover{
