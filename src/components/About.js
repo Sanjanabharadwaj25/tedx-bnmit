@@ -11,7 +11,7 @@ function About(){
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
             <div class="flex flex-col items-center text-center justify-center">
-              <h2 class="font-medium title-font mt-4 text-white text-lg">What is TED?</h2>
+              <h2 class="font-medium title-font mt-4 text-black text-lg">What is TED?</h2>
               <div class="w-12 h-1 rounded mt-2 mb-4 aboutbg"></div>
             </div>
           </div>
@@ -30,8 +30,8 @@ function About(){
 
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-            <div class="flex flex-col items-center text-center justify-center">
-              <h2 class="font-medium title-font mt-4 text-white text-lg">What is TEDx?</h2>
+            <div class="flex flex-col items-center text-center justify-center container">
+              <h2 class="font-medium title-font mt-4 text-black text-lg">What is TEDx?</h2>
               <div class="w-12 h-1 rounded mt-2 mb-4 aboutbg"></div>
             </div>
           </div>
