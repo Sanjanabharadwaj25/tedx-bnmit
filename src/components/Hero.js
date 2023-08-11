@@ -8,7 +8,7 @@ function Hero() {
   // Run the typewriter effect on component mount
   useEffect(() => {
     const typing = new Typed(textRef.current, {
-      strings: ["SPREADING", "SHARING"],
+      strings: ["SPREADING"],
       typeSpeed: 100,
       backSpeed: 40,
       loop: true,
